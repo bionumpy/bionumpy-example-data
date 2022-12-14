@@ -31,7 +31,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pi
+          python -m pip install --upgrade pip
           pip install git+https://github.com/bionumpy/npstructures.git/@dev
           pip install git+https://github.com/bionumpy/bionumpy.git/@dev
           pip install -r requirements.txt
